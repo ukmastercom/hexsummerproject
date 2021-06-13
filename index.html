@@ -1,0 +1,26 @@
+<html>
+
+  <head>
+    <script type="text/javascript" src="home.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=geometry"></script>
+    <link rel="stylesheet" href="home.css" />
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=geometry"></script>
+    
+  </head>
+
+  <body onload="loadmap();">
+  <center>
+    <form>
+      <div>
+        <input type="text" id="radius" name="radius" placeholder="RADIUS"><br>
+      </div>
+      <div>
+        <input type="button" value="Mark Coordinates" id="submit" onClick="valueassign()">
+      </div>
+    </form>
+    </center>
+    <br><br>
+    <div id="map-canvas"></div>
+  </body>
+
+</html>
